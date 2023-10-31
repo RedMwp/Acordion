@@ -18,6 +18,7 @@ main{
     justify-content: center;
     align-items:center;
     margin:0 auto;
+    max-width: 1080px
 }
 section{
     background:#fff;
@@ -36,6 +37,7 @@ section{
     display:flex;
     flex-direction: column;
     justify-content:space-around;
+    padding: 1em;
 }
 .content h1{
     text-align: center;
@@ -102,6 +104,7 @@ img[alt=box] {
     transform: translate(0%, -50%);
     z-index: 1;
 }
+
 @media (max-width:800px){
     section{
         flex-direction:column;
