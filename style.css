@@ -12,7 +12,7 @@ body{
     font-family: arial, Sans-serif;
 }
 main{
-    width: 80%;
+    width: 90%;
     min-height:100vh;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@ section{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    width:100%;
+    width:98%;
 }
 .content{
     width:50%;
@@ -37,7 +37,7 @@ section{
     display:flex;
     flex-direction: column;
     justify-content:space-around;
-    padding: 1em;
+    padding-right: 1.5em;
 }
 .content h1{
     text-align: center;
